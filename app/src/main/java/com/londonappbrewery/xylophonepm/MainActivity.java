@@ -9,20 +9,21 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     // Helpful Constants
-    int NR_OF_SIMULTANEOUS_SOUNDS = 7;
-    float LEFT_VOLUME = 1.0f;
-    float RIGHT_VOLUME = 1.0f;
-    int NO_LOOP = 0;
-    float NORMAL_PLAY_RATE = 1.0f;
+    private final int NR_OF_SIMULTANEOUS_SOUNDS = 7;
+    private final float LEFT_VOLUME = 1.0f;
+    private final float RIGHT_VOLUME = 1.0f;
+    private final int NO_LOOP = 0;
+    private final int PRIORITY = 0;
+    private final float NORMAL_PLAY_RATE = 1.0f;
 
     // TODO: Add member variables here
-    int mCSoundId;
-    int mDSoundId;
-    int mESoundId;
-    int mFSoundId;
-    int mGSoundId;
-    int mASoundId;
-    int mBSoundId;
+    private int mCSoundId;
+    private int mDSoundId;
+    private int mESoundId;
+    private int mFSoundId;
+    private int mGSoundId;
+    private int mASoundId;
+    private int mBSoundId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
